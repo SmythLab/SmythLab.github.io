@@ -1,0 +1,51 @@
+baseurl: "/"
+languageCode: en-au
+title: Smyth Lab at WEHI Bioinformatics
+googleAnalytics: ''
+disqusShortname: ''
+relativeurls: true
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+permalinks:
+  post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: People
+      url: /people/
+      weight: 1
+    - name: Publications
+      url: /publications/
+      weight: 2
+    - name: Resources
+      url: /resources/
+      weight: 3
+    - name: FAQs
+      url: /faqs/
+      weight: 4
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: The Smyth Lab webpage.
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+social:
+  github = "SmythLab"
