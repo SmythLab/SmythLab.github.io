@@ -15,7 +15,7 @@ permalink: /resources/
 
 <div class="row">
   <div class="column-software">
-<img src = "https://github.com/Bioconductor/BiocStickers/blob/master/limma/limma.png?raw=true" style="width:140px;height:158px;"/>
+<img src = "https://github.com/Bioconductor/BiocStickers/blob/master/limma/limma.png?raw=true" style="width:140px;height:158px;margin-top:-20px;"/>
   </div>
 
 `Limma` is an R package for the analysis of gene expression microarray data, especially the use of linear models for analysing designed experiments and the assessment of differential expression. `Limma` provides the ability to analyse comparisons between many RNA targets simultaneously in arbitrary complicated designed experiments. Empirical Bayesian methods are used to provide stable results even when the number of arrays is small. The normalization and data analysis functions are for two-color spotted microarrays. The linear model and differential expression functions apply to all microarray technologies including Affymetrix and other single-channel oligonucleotide platforms. `Limma` is available on <a href="https://bioconductor.org/packages/release/bioc/html/limma.html"> Bioconductor.
